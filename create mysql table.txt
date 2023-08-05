@@ -1,0 +1,8 @@
+create database im mysql
+host=localhost
+password=root123
+database=result
+table=results
+
+creating table code;
+create table results(recno int(5) primary key,ename varchar(20),post char(40),cname char(20),vote int(10));
